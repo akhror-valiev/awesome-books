@@ -1,28 +1,28 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.book-title {
-    width: 20%;
-    max-width: 100%;
+h1 {
+  margin-bottom: 15px;
 }
 
-.book-title ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+.book-list,
+.book-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
 }
 
-.section-input {
-    width: 20%;
-    max-width: 100%;
+.form input {
+  display: grid;
+  margin: 20px 0 20px 0;
+  width: 30%;
 }
 
-.section-input .input-title {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.book-list li:last-child {
+  padding: 1px 5px 1px 5px;
+}
+
+.Add-BTN {
+  padding: 1px 5px 1px 5px;
 }
