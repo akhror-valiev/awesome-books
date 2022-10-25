@@ -41,7 +41,7 @@
 
 👤 **Author2**
 
-- GitHub: [@Alabi12](https://github.com/akhror-valiev)
+- GitHub: [@akhror-valiev](https://github.com/akhror-valiev)
 - Twitter: [@oshie0115](https://twitter.com/oshie0115)
 - LinkedIn: [LinkedIn](edin.com/in/akhror-valiev-9141911b8/)
 ## 🤝 Contributing
