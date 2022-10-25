@@ -118,15 +118,24 @@ window.onload = () => {
        ListClick.className = 'main';
        FormClick.className = 'form-none';
        ContactClick.className = 'contact-section-none';
+       document.getElementById('nav-link').style.color = 'blue';
+       document.querySelector('.add-new').style.color = 'black';
+       document.getElementById('contact').style.color = 'black';
     }
     else if(input === 'add-new'){
         ListClick.className = 'main-list';
         FormClick.className = 'form';
         ContactClick.className = 'contact-section-none';
+        document.getElementById('nav-link').style.color = 'black';
+        document.querySelector('.add-new').style.color = 'blue';
+        document.getElementById('contact').style.color = 'black';
     }
     else{
         ListClick.className = 'main-list';
         FormClick.className = 'form-none';
         ContactClick.className = 'contact-section';
+        document.getElementById('nav-link').style.color = 'black';
+        document.querySelector('.add-new').style.color = 'black';
+        document.getElementById('contact').style.color = 'blue';
     }
   }

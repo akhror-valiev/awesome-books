@@ -14,13 +14,11 @@
         <h3>Awesome Books</h3>
         <nav>
             <ul class="nav-link">
-                <li onclick="NavClick('list')">List</li><hr>
-                <li onclick="NavClick('add-new')">Add new</li><hr>
-                <li onclick="NavClick('contact')">Contact</li>
+                <li id="nav-link" onclick="NavClick('list')">List</li><hr>
+                <li class="add-new" onclick="NavClick('add-new')">Add new</li><hr>
+                <li id="contact" onclick="NavClick('contact')">Contact</li>
             </ul>
         </nav>
-        
-        
     </header>
     <p class="time">October 25 2022 07:11pm</p>
     <main class="main" id="my-main">
@@ -32,16 +30,13 @@
             </div>
         </section>
     </main>
-    
     <b id="errorMsg"></b>
-
     <form action="" class="form-none" id="my-form">
         <h2>Add a new book</h2>
         <input type="text" id="title" placeholder="Title" />
         <input type="text" id="author" placeholder="Author" />
         <button type="submit" id="add-button" class="Add-BTN">Add</button>
     </form>
-
     <section class="contact-section-none" id="my-contact">
         <h1>Contact Information</h1>
         <p>Do you have any questions or you just want to say "Hello"?
@@ -53,15 +48,6 @@
             <li>Our address Nigeria and Uzbekistan 2022</li>
         </ul>
     </section>
-
-
-
-
-
-
-
-
-    
     <footer class="footer">
         <p>&copy; Copyright 2022</p>
 

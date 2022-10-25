@@ -3,12 +3,18 @@
   padding: 0;
 }
 
+body {
+  display: grid;
+  align-items: end;
+  height: 100vh;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   padding: 5px 10% 5px 10px;
   border: 3.5px solid black;
-  margin: 10px 20px 10px 20px;
+  margin: -65px 20px 10px 20px;
 }
 
 nav ul {
@@ -16,6 +22,10 @@ nav ul {
   gap: 20px;
   list-style-type: none;
   cursor: pointer;
+}
+
+.nav-link #nav-link {
+  color: blue;
 }
 
 .time {
