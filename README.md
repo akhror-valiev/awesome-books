@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Hello Microverse
-> This is a new website feature for this new Module
+> This is a new Awesome book project for Module-2 that includes add and remove featuree. Used DOM manipulation dynamically to render the data
 
 ## Built With
  
@@ -39,16 +39,16 @@
 - Twitter: [@twitterhandle](https://twitter.com/RichardroiDX)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-oguzie-ibeh-b4a975231/?originalSubdomain=ng)
 
-👤 **Author1**
+👤 **Author2**
 
-- GitHub: [@Alabi12](https://github.com/Alabi12)
-- Twitter: [@wolo_robert](https://twitter.com/wolo_robert)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/robert-o-alabi-49ba4b184)
+- GitHub: [@Alabi12](https://github.com/akhror-valiev)
+- Twitter: [@oshie0115](https://twitter.com/oshie0115)
+- LinkedIn: [LinkedIn](edin.com/in/akhror-valiev-9141911b8/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/XRichardroidX/My-Microverse-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/akhror-valiev/awesome-books.git).
 
  ## Show your support
 
