@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
     <header>
         <h1>Awesome books</h1>
     </header>
+    <section className="AddBook" id="add-new"></section>
+    <section id="list">
+        <ul class="render-container"></ul>
+        <b id="errorMsg"></b>
+    </section>
+    <b id="errorMsg"></b>
 
-    <div class="main">
-    </div>
-    
-    <form action="" class="form">
-        <input type="text" id="title" placeholder="Title">
-        <input type="text" id="author" placeholder="Author">
+    <form action="">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <button type="submit" id="add-button" class="Add-BTN">Add</button>
     </form>
-    <button class="Add-BTN">Add</button>
-    <script src="script.js"></script>
+
+    <script src="js/class.js"></script>
 </body>
+
 </html>
