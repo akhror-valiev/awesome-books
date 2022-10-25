@@ -3,6 +3,8 @@ const bookContainer = document.querySelector('.render-container');
 const addButton = document.querySelector('form');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
+const ListClick = document.getElementById('my-main');
+const FormClick = document.getElementById('my-form');
 
 let counter = 0;
 
@@ -109,3 +111,17 @@ addButton.addEventListener('submit', (e) => {
 window.onload = () => {
     Books.renderBook();
 };
+
+  function NavClick(input){
+    if(input === 'list'){
+       ListClick.className = 'main';
+       FormClick.className = 'form-none';
+    }
+    else if(input === 'add-new'){
+        ListClick.className = 'main-list';
+        FormClick.className = 'form';
+    }
+    else{
+
+    }
+  }
