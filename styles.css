@@ -122,6 +122,10 @@ hr {
   gap: 30px;
 }
 
+.contact-section-none {
+  display: none;
+}
+
 .contact-section h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -133,11 +137,11 @@ hr {
   padding: 0 25% 0 25%;
 }
 
-.contact-section .nav-link {
+.contact-section li {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-left: 40%;
+  margin-left: 30%;
   gap: 5px;
   font-size: 1.2rem;
 }

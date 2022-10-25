@@ -5,6 +5,7 @@ const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 const ListClick = document.getElementById('my-main');
 const FormClick = document.getElementById('my-form');
+const ContactClick = document.getElementById('my-contact');
 
 let counter = 0;
 
@@ -116,12 +117,16 @@ window.onload = () => {
     if(input === 'list'){
        ListClick.className = 'main';
        FormClick.className = 'form-none';
+       ContactClick.className = 'contact-section-none';
     }
     else if(input === 'add-new'){
         ListClick.className = 'main-list';
         FormClick.className = 'form';
+        ContactClick.className = 'contact-section-none';
     }
     else{
-
+        ListClick.className = 'main-list';
+        FormClick.className = 'form-none';
+        ContactClick.className = 'contact-section';
     }
   }
