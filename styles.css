@@ -3,12 +3,23 @@
   padding: 0;
 }
 
+
+
+body{
+  display: grid;
+  align-items: end;
+  height: 100vh; 
+  
+}
+
+
+
 header {
   display: flex;
   justify-content: space-between;
   padding: 5px 10% 5px 10px;
   border: 3.5px solid black;
-  margin: 10px 20px 10px 20px;
+  margin: -45px 20px 10px 20px;
 }
 
 nav ul {
@@ -97,6 +108,7 @@ hr {
     'Trebuchet MS',
     sans-serif;
   font-size: 18px;
+  
 }
 
 .form input {
@@ -119,31 +131,37 @@ hr {
 .contact-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  
+  
 }
+
 
 .contact-section-none {
   display: none;
 }
 
-.contact-section h1 {
-  text-align: center;
-  font-size: 2.5rem;
+.contact-heading{
+  font-size: 2rem;
+  
 }
 
 .contact-section p {
-  text-align: start;
-  font-size: 1rem;
-  padding: 0 25% 0 25%;
+  text-align: center;
+  font-size: 1.2rem;
+  
+  
+
 }
 
-.contact-section li {
+.contact-section .address {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  margin-left: 30%;
-  gap: 5px;
-  font-size: 1.2rem;
+  padding: 0 40% 0 40%;
+  width: 100%;
+  
+  
+
+  
 }
 
 .footer {
