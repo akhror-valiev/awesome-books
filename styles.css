@@ -3,9 +3,37 @@
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10% 5px 10px;
+  border: 3.5px solid black;
+  margin: 10px 20px 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.form-none {
+  display: none;
+}
+
 h1 {
   display: flex;
   justify-content: center;
+}
+
+.main-list {
+  display: none;
+}
+
+hr {
+  height: 20px;
+  background-color: black;
 }
 
 .AddBook {
@@ -16,6 +44,7 @@ h1 {
 
 #list ul {
   list-style-type: none;
+  
 }
 
 .book-odd {
@@ -81,4 +110,12 @@ h1 {
 
 #errorMsg {
   color: red;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  padding: 5px 30px 15px 30px;
+  border: 2px solid black;
+  margin: 2px;
 }
