@@ -28,9 +28,21 @@ nav ul {
   color: blue;
 }
 
+.nav-link #nav-link:hover {
+  color: blue;
+}
+
+.nav-link .add-new:hover {
+  color: blue;
+}
+
+.nav-link #contact:hover {
+  color: blue;
+}
+
 .time {
   text-align: right;
-  margin: 0 30px 0 0;
+  margin: -15rem 30px 0 0;
 }
 
 .form-none {
