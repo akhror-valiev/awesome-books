@@ -13,13 +13,16 @@
     <header>
         <h3>Awesome Books</h3>
         <nav>
-            <ul>
+            <ul class="nav-link">
                 <li onclick="NavClick('list')">List</li><hr>
                 <li onclick="NavClick('add-new')">Add new</li><hr>
                 <li onclick="NavClick('contact')">Contact</li>
             </ul>
         </nav>
+        
+        
     </header>
+    <p class="time">October 25 2022 07:11pm</p>
     <main class="main" id="my-main">
         <h1>All awesome books</h1>
         <section class="AddBook" id="add-new">
@@ -39,6 +42,18 @@
         <button type="submit" id="add-button" class="Add-BTN">Add</button>
     </form>
 
+    <section class="contact-section">
+        <h1>Contact Information</h1>
+        <p>Do you have any questions or you just want to say "Hello"?
+            You can reach out to us!
+        </p>
+        <ul>
+            <li>Our e-mail awesomebooks@mail.com</li>
+            <li>Our phone number 0990909090939</li>
+            <li>Our address Nigeria and Uzbekistan 2022</li>
+        </ul>
+    </section>
+
 
 
 
@@ -47,9 +62,9 @@
 
 
     
-    <footer>
-        <h2>Copyright</h2>
-        <b>2021/2022</b>
+    <footer class="footer">
+        <p>&copy; Copyright 2022</p>
+
     </footer>
     <script src="js/class.js"></script>
 </body>

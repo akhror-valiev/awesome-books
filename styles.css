@@ -18,6 +18,11 @@ nav ul {
   cursor: pointer;
 }
 
+.time {
+  text-align: right;
+  margin: 0 30px 0 0;
+}
+
 .form-none {
   display: none;
 }
@@ -44,7 +49,6 @@ hr {
 
 #list ul {
   list-style-type: none;
-  
 }
 
 .book-odd {
@@ -112,10 +116,43 @@ hr {
   color: red;
 }
 
-footer {
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.contact-section p {
+  text-align: start;
+  font-size: 1rem;
+  padding: 0 25% 0 25%;
+}
+
+.contact-section .nav-link {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 40%;
+  gap: 5px;
+  font-size: 1.2rem;
+}
+
+.footer {
   display: flex;
   gap: 10px;
-  padding: 5px 30px 15px 30px;
-  border: 2px solid black;
-  margin: 2px;
+  padding: 10px 30px 10px 30px;
+  border: 3.5px solid black;
+  margin: 10% 20px 10px 20px;
+}
+
+.footer p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
