@@ -4,6 +4,7 @@ const addButton = document.querySelector('form');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 
+let counter = 0;
 
 class Books {
     static listOfbooks = [];
@@ -40,17 +41,32 @@ class Books {
 
         let list = ''
         Books.listOfbooks.forEach((book) => {
+          counter++;
+         if(counter%2 === 0){
             list += `
-           <li class="book" id="${book.id}">
+           <li class="book-even" id="${book.id}">
              <div class="book-info">
-                <p>${book.title}</p>  
+                <p>"${book.title}"</p>
+                <p>by</p>  
                 <p>${book.author}</p>
             </div>
-            
-             <button type="button" class="remove-btn">Remove</button>
-             <hr>
+            <button type="button" class="remove-btn">Remove</button>
            </li>
          `;
+         }
+         else{
+            list += `
+           <li class="book-odd" id="${book.id}">
+             <div class="book-info">
+                <p>"${book.title}"</p>
+                <p>by</p>  
+                <p>${book.author}</p>
+            </div>
+            <button type="button" class="remove-btn">Remove</button>
+           </li>
+         `;
+         console.log(counter);
+         }
         });
 
         bookContainer.innerHTML = list;
@@ -63,6 +79,7 @@ class Books {
                 Books.listOfbooks = Books.listOfbooks.filter((book) => book.id !== bookId);
                 Books.storage(Books.listOfbooks);
                 e.target.parentElement.remove();
+                location.reload();
             });
         });
     }
